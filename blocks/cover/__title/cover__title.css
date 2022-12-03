@@ -1,4 +1,4 @@
-.сover__title {
+.cover__title {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .сover__title {
+  .cover__title {
     width: 288px;
     height: 70px;
     font-size: 32px;
