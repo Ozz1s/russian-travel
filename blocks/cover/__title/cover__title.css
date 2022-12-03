@@ -1,0 +1,22 @@
+.сover__title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  /* or 106% */
+  color: #FFFFFF;
+  margin: 0;
+  max-width: 560px;
+  text-align: center;
+  z-index: 1;
+}
+
+@media screen and (max-width: 320px) {
+  .сover__title {
+    width: 288px;
+    height: 70px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

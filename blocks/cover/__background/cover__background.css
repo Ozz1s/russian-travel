@@ -1,0 +1,50 @@
+.cover__background {
+  width: 100%;
+  min-height: 740px;
+  background-image: url(../../../images/background.png);
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.cover__background::after {
+  content: '';
+  display: block;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 350ms ease;
+}
+
+.cover__background:hover:after {
+  opacity: 0.8;
+}
+
+@media screen and (max-width:1024px) {
+  .cover__background {
+    min-height: 640px;
+  }
+}
+
+
+@media screen and (max-width:768px) {
+  .cover__background {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .cover__background {
+    min-height: 200px;
+  }
+}
