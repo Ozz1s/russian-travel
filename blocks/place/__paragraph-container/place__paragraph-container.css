@@ -1,4 +1,22 @@
 .place__paragraph-container {
     max-width: 484px;
-    min-height: 174px;
+  }
+
+  @media screen and (max-width:1024px) {
+    .place__paragraph-container{
+      max-width: 456px;
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    .place__paragraph-container{
+      max-width: 352px;
+    }
+  }
+
+  @media screen and (max-width:320px) {
+    .place__paragraph-container{
+      width: calc(100% - 2*16px);
+      margin: 0 auto;
+    }
   }
