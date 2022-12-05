@@ -28,5 +28,6 @@
     }
     .header__lang-link:first-child{
         margin-right: 12px;
+        padding-top: 30px;
     }
 }

@@ -22,7 +22,8 @@
         padding-right: 8px;
         padding-top: 30px;
     }
-    .header__lang-link:last-child{
-        padding-top: 0;
-    }
+   
+    .header__lang:last-of-type{
+        padding-top: 0; 
+    }  
 }
